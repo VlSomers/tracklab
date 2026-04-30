@@ -253,7 +253,7 @@ def video_dir_to_dfs(args):
                 'seq_length': nframes,
                 'im_width': int(images_data[0].get('width', 0)),
                 'im_height': int(images_data[0].get('height', 0)),
-                'game_id': int(info_data.get('gameID', 0)),
+                'game_id': int(info_data.get('game_id', 0)),
                 'action_position': int(info_data.get('action_position', 0)),
                 'action_class': info_data.get('action_class', ''),
                 'visibility': info_data.get('visibility', ''),

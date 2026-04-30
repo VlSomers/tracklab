@@ -99,7 +99,7 @@ def load_set(dataset_path, nvid=-1, vids_filter_set=None):
                 'seq_length': nframes,
                 'im_width': int(seqinfo_data.get('imWidth', 0)),
                 'im_height': int(seqinfo_data.get('imHeight', 0)),
-                'game_id': int(gameinfo_data.get('gameID', 0)),
+                'game_id': int(gameinfo_data.get('game_id', 0)),
                 'action_position': int(gameinfo_data.get('actionPosition', 0)),
                 'action_class': gameinfo_data.get('actionClass', ''),
                 'visibility': gameinfo_data.get('visibility', ''),
