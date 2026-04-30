@@ -13,7 +13,6 @@ class TracklabSearchPathPlugin(SearchPathPlugin):
         # Appends the search path for tracklab plugins to the end of the search path
         tracklab_plugins = entry_points(group="tracklab_plugin")
         for tracklab_plugin in tracklab_plugins:
-            m = tracklab_plugin.dist
             module = tracklab_plugin.load()
             if hasattr(module, "config_package"):
                 search_path.append(provider="tracklab", path=module.config_package)
