@@ -9,7 +9,7 @@ authors = [
     { name = "Vladimir Somers", email = "vladimir.somers@uclouvain.be"},
 ]
 
-requires-python = ">=3.9"
+requires-python = ">=3.9,<3.12"
 dependencies = [
     "hydra-core",
     "lightning",
