@@ -1,7 +1,7 @@
 # TrackLab Tutorial
 
 
-- 2. Step by step guide SoccerNet
+- Step by step guide SoccerNet
 - Download SoccerNet
 - SoccerNet data class
 - Command to run tracklab + example to override configs
